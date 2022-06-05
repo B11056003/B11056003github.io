@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW_Font Style</title>
+    <link rel="stylesheet" href="Style/Pratice1_table.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+    }
+    
+    table,
+    th,
+    td {
+        border: 1px solid black;
+    }
+    
+    span {
+        color: green;
+        font-weight: bold;
+        font-size: 1.2em;
+        font-family: Sa;
+        font-family: 'Sawarabi Mincho', sans-serif;
+    }
+    
+    sup {
+        font-size: 0.5em;
+        color: grey;
+    }
+    #pp{
+        color: purple;
+        font-family: 'Noto Sans TC', sans-serif;
+    }
+    img{
+        text-align: center;
+    }
+    h1{
+        color: blue;
+        font-family: 'Oswald', sans-serif;
+        text-shadow: 1px 1px 0px black;
+        text-transform: uppercase;
+    }
+    h1:hover{
+        background-color: yellow;
+        text-transform:lowercase ;
+        color: green;
+    }
+    #na:hover{
+        color: red;
+    }
+    #de:first-letter{
+        font-size: 200%;
+    }
+    a{
+        color: green;
+        font-weight: bolder;
+        text-decoration:none;
+    }
+    a:visited{
+        color: green;
+        font-weight: bolder;
+        text-decoration:none;
+    }
+    a:hover{
+        background-color: green;
+        color: white;
+        font-size: 150%;
+        font-weight: bolder;
+        text-decoration:none;
+    }
+    a:active{
+        background-color: yellow;
+        color: red;
+        font-weight: bolder;
+        text-decoration:none;
+    }
+    li{
+        list-style-image: url("img/00.jpg");
+        
+    }
+</style>
+</style>
+
+<body style="font-family: 'Ubuntu', sans-serif;"><b>
+    <table class="table">
+        <caption>
+            <h1><u>Pokemon introduction</u></h1>
+        </caption>
+        <thead>
+            <tr style="background-color: green;color: white ;font-size: 1.5em;font-family: 'Ubuntu Condensed', sans-serif;font-size: 1.5em;">
+                <th id="na">Pokemon Name</th>
+                <th>Picture</th>
+                <th>Type</th>
+                <th>Species</th>
+                <th >Abilities</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align: center;">Jigglypuff
+                    <p id="pp"><i>(胖丁)</i></p>
+                </td>
+                <td>
+                    <img src="img/7a2bec0dd522d66353f0cf3df9148070456a3349.png" alt="Jugglypuff" width="100" height="20%">
+                </td>
+                <td>Fairy</td>
+                <td>Balloon Pokémon</td>
+                <td style="line-height: 1.5em;" >
+                    <ul >
+                        <li>Cute Charm</li>
+                        <li>Competitive</li>
+                        <li>Friend Guard<sup>(DW)</sup> </li>
+                        </ul>
+                </td>
+                <td id="de">
+                    Jigglypuff (Japanese: <span><i>プリン</i></span> Purin) is a dual-type Normal/Fairy Pokémon introduced in Generation I.
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Meowth
+                    <p id="pp"><i>(喵喵)</i></p>
+                </td>
+                <td>
+                    <img src="img/下載.jpg" alt="Jugglypuff" width="100" height="20%">
+                </td>
+                <td>Normal</td>
+                <td>
+                    Scratch Cat Pokémon
+                </td>
+                <td style="line-height: 1.5em;">
+                    <ul>
+                        <li>Pickup</li>
+                        <li>Technician</li>
+                        <li>Unnerve <sup>(DW)</sup></li>
+    
+    </ul>
+                </td>
+                <td id="de">
+                    Meowth (Japanese: <span><i>ニャース</i></span> Nyarth) is a Normal-type Pokémon introduced in Generation I.
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Psyduck
+                    <p id="pp"><i>(可達鴨)</i></p>
+                </td>
+                <td><img src="img/d2194378.jpg" alt="Jugglypuff" width="100" height="20%"></td>
+                <td>Water</td>
+                <td>
+                    Scratch Cat Pokémon
+                </td>
+                <td style="line-height: 1.5em;">
+                    <ul>
+                        <li>Damp</li>
+                        <li>Cloud Nine</li>
+                        <li>Swift Swim <sup>(DW)</sup></li>
+    </ul>
+
+                </td>
+                <td id="de">Psyduck (Japanese: <span><i>コダック</i></span> Koduck) is a Water-type Pokémon introduced in Generation I.</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Squirtle
+                    <p id="pp"><i>(小水龜)</i></p>
+                </td>
+                <td><img src="img/下載 (1).jpg" alt="Jugglypuff" width="100" height="20%"></td>
+                <td>Water</td>
+                <td>
+                    Tiny Turtle Pokémon
+                </td>
+                <td style="line-height: 1.5em;">
+                    <ul>
+                        <li>Torrent</li>
+                        <li>Rain Dish <sup>(DW)</sup></li>
+    </ul>
+                </td>
+                <td id="de">Squirtle (Japanese: <span><i>ゼニガメ</i></span> Zenigame) is a Water-type Pokémon introduced in Generation I.</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6" style="background-color:palegoldenrod;" align="left"><i>Reference：<a href="http://pokemon.wikia.com/wiki/Category:Generation_I_Pok%C3%A9mon" target="_blank">FANDOM</a> </i></td>
+           </tr> 
+        </tfoot>
+    </table></b>
+</body>
+
+</html>
